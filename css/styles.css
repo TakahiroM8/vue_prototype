@@ -100,7 +100,7 @@ footer{
 
 .footer_agreementList>li::after {
     content: "|";
-    margin-left: 20px;
+    margin-left: 10px;
     color: #EEE;
 }
 
