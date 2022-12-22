@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+}
+
+#login {
+    position: relative;
+    margin-top: 10%;
+    background: #343C4A;
+}
+
+.login_content {
+    width: 100%;
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 250px;
+}
+
+.login_content div {
+    margin-bottom: 30px;
+}
+
+.login_content .login_logo img {
+    margin:auto;
+    width: 10%;
+    height: 10%;
+}
+
+.login_content .input_account p,.login_content .input_password p{
+    text-align: left;
+    color: #FFF;
+}
+
+.login_content input {
+    display: block;
+    width: 100%;
+    max-width: 90%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    border: 1px solid #d1d3e2;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.login_button {
+    margin-top: 40px;
+}
+
+.login_button a {
+    font-size: 13px;
+    border-radius: 160px;
+    padding: 12px 16px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #E06869;
+    border-color: #E06869;
+    text-decoration: none;
+}
+
+.separator .change_link a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_secondary {
+    position: relative;
+    margin-top: 26px;
+    width: 100%;
+    text-align: left;
+}
+
+.footer_agreementList {
+    padding-left: 0;
+}
+
+.footer_agreementList>li, .footer_agreementList>li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.footer_agreementList>li a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer_agreementList>li::after {
+    content: "|";
+    margin-left: 10px;
+    color: #eee;
+}
+
+.none {
+    color: #eee;
+    float: right;
+}
+
+.none::after {
+    content: "" !important;
+}
+
+.clearfix::after, .clearfix::before {
+    display: block;
+    content: "";
+    clear: both;
+}
+
