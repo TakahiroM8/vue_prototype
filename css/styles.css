@@ -93,7 +93,7 @@ footer{
 }
 
 .footer_agreementList>li a {
-    color: #eee;
+    color: #EEE;
     text-decoration: none;
     font-size: 12px;
 }
@@ -101,11 +101,11 @@ footer{
 .footer_agreementList>li::after {
     content: "|";
     margin-left: 10px;
-    color: #eee;
+    color: #EEE;
 }
 
 .none {
-    color: #eee;
+    color: #EEE;
     float: right;
 }
 
