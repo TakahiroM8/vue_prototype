@@ -106,7 +106,7 @@ footer{
 
 .none {
     color: #eee;
-    float: right;
+    float: left;
 }
 
 .none::after {
@@ -118,9 +118,3 @@ footer{
     content: "";
     clear: both;
 }
-
-
-
-
-
-
